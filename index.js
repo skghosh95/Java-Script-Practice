@@ -265,18 +265,6 @@ firstContainer.addEventListener('mousedown', function(){
 })
 
 
-// Arrow Functions
-function summ(a, b){
-    return a+b;
-}
-summ = (a,b)=>{
-    return a+b;
-}
-
-logKaro = ()=>{
-    document.querySelectorAll('.container')[1].innerHTML = "<b> Set interval fired</b>"
-    console.log("I am your log")
-}
 // SetTimeout and setinterval
 clr = setTimeout(logOn, 5000);
 clr = setInterval(logOn, 2000);
